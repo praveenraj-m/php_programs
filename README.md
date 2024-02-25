@@ -32,6 +32,7 @@ If the request is successful (status code 200), it extracts and displays the cur
 In case of an error, it prints an error message.
 </details>
 
+<details>
 <summary> 5. Hangman Game. </summary>
 Explanation:<br>
 The program selects a random word from a predefined list, and the player needs to guess the word by inputting letters.<br>
@@ -39,4 +40,13 @@ It displays the current state of the word with underscores for unguessed letters
 The player has a limited number of attempts (6 in this case) to guess the word.<br>
 If the player guesses the word or runs out of attempts, the game ends.
 </details>
+
+<details>
+<summary> 6. Basic Website Scraper. </summary>
+Explanation:<br>
+The PHP script uses `file_get_contents` to fetch the HTML content of 'https://www.google.com' and `DOMDocument` with XPath to parse the HTML.<br>
+It then selects and prints the `href` attribute of all links (`a` tags) from the Google homepage.
+</details>
+
+
 
