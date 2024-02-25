@@ -14,3 +14,11 @@ The program uses the rand function to generate a random number between 1 and 100
 It prompts the user to guess the number and provides feedback on whether the guess is too high or too low.<br>
 The game continues until the correct number is guessed.
 </details>
+
+<details>
+<summary>3. To-Do List App.</summary>
+Explanation:<br>
+The PHP script uses an array to store tasks, and the `readline` function is used to take user input.<br>
+A menu is displayed with options to add tasks, view tasks, or quit the app.<br>
+The app continues running until the user chooses to quit.
+</details>
