@@ -1,6 +1,6 @@
 # php_programs
 <details>
-<summary> 1.Basic Calculator </summary>
+<summary> 1.Basic Calculator. </summary>
 Explanation:<br>
 In PHP, functions (add, subtract, multiply, divide) are defined to perform basic arithmetic operations.<br>
 The readline function is used to take user input for two numbers, which are then cast to floats.<br>
@@ -21,4 +21,13 @@ Explanation:<br>
 The PHP script uses an array to store tasks, and the `readline` function is used to take user input.<br>
 A menu is displayed with options to add tasks, view tasks, or quit the app.<br>
 The app continues running until the user chooses to quit.
+</details>
+
+<details>
+<summary> 4. Weather App. </summary>
+Explanation:<br>
+The program prompts the user to enter the city name and constructs a URL to fetch weather data using the OpenWeatherMap API.<br>
+It uses `file_get_contents` to send an HTTP GET request and `json_decode` to process the JSON response.<br>
+If the request is successful (status code 200), it extracts and displays the current temperature and weather description.<br>
+In case of an error, it prints an error message.
 </details>
