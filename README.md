@@ -16,7 +16,7 @@ The game continues until the correct number is guessed.
 </details>
 
 <details>
-<summary>3. To-Do List App.</summary>
+<summary>3. To-Do List App. </summary>
 Explanation:<br>
 The PHP script uses an array to store tasks, and the `readline` function is used to take user input.<br>
 A menu is displayed with options to add tasks, view tasks, or quit the app.<br>
@@ -31,3 +31,12 @@ It uses `file_get_contents` to send an HTTP GET request and `json_decode` to pro
 If the request is successful (status code 200), it extracts and displays the current temperature and weather description.<br>
 In case of an error, it prints an error message.
 </details>
+
+<summary> 5. Hangman Game. </summary>
+Explanation:<br>
+The program selects a random word from a predefined list, and the player needs to guess the word by inputting letters.<br>
+It displays the current state of the word with underscores for unguessed letters and updates it as the player guesses correctly.<br>
+The player has a limited number of attempts (6 in this case) to guess the word.<br>
+If the player guesses the word or runs out of attempts, the game ends.
+</details>
+
