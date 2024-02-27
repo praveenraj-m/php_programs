@@ -48,5 +48,9 @@ The PHP script uses `file_get_contents` to fetch the HTML content of 'https://ww
 It then selects and prints the `href` attribute of all links (`a` tags) from the Google homepage.
 </details>
 
-
-
+<details>
+<summary> 7. Basic File Handling. </summary>
+Explanation:<br>
+The PHP script demonstrates basic file handling operations - writing content to a file using `file_put_contents` and reading content from a file using `file_get_contents`.<br>
+It writes a sample line to a file, then reads and prints the content of the file.
+</details
