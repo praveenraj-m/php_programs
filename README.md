@@ -68,3 +68,10 @@ Explanation:<br>
 The PHP script defines a function `convertCurrency` that takes an amount, source currency, and target currency, and returns the converted amount.<br>
 An example usage is provided, converting 100 USD to INR along with other predefined conversion rates.
 </details>
+
+<details>
+<summary>10. Random Password Generator. </summary>
+Explanation:<br>
+The PHP script defines a function `generateRandomPassword` that generates a random password of a specified length using letters, digits, and special characters.<br>
+The password is then printed.
+</details>
