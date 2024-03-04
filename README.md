@@ -49,10 +49,11 @@ It then selects and prints the `href` attribute of all links (`a` tags) from the
 </details>
 
 <details>
-<summary> 7. Basic File Handling. </summary>
+<summary> 7. Basic File Handling - Appending. </summary>
 Explanation:<br>
-The PHP script demonstrates basic file handling operations - writing content to a file using `file_put_contents` and reading content from a file using `file_get_contents`.<br>
-It writes a sample line to a file, then reads and prints the content of the file.
+The PHP script demonstrates basic file handling operations, including writing content to a file using `file_put_contents` and reading content from a file using `file_get_contents`. <br>
+It initially adds a sample line to the file, then reads and prints the content. Later, it overwrites the content with different text and reads it again. <br>
+Finally, additional content is appended to the file using `FILE_APPEND`, and the updated content is read and displayed.
 </details>
 
 <details>
